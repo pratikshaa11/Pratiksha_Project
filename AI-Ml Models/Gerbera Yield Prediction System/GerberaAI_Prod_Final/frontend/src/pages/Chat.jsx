@@ -1,0 +1,5 @@
+import React,{useState} from "react";
+import axios from "axios";
+export default function Chat(){ const [msgs,setMsgs]=useState([{from:"bot",text:"Namaste! Ask me about Gerbera care, diseases, market trends or weather in Maharashtra."}]); const [text,setText]=useState("");
+async function send(){ if(!text) return; setMsgs(m=>[...m,{from:"user",text}]); const r=await axios.post("http://127.0.0.1:8000/chat",{message:text}); setMsgs(m=>[...m,{from:"bot",text:r.data.reply}]); setText(""); }
+return (<div style={{maxWidth:900}}><h2>Chatbot</h2><div style={{border:"1px solid #eee", padding:12, height:300, overflow:"auto"}}>{msgs.map((m,i)=><div key={i}><strong>{m.from}:</strong> {m.text}</div>)}</div><div style={{marginTop:8}}><input value={text} onChange={e=>setText(e.target.value)} style={{width:"75%"}}/><button onClick={send} style={{marginLeft:8}}>Send</button></div></div>); }

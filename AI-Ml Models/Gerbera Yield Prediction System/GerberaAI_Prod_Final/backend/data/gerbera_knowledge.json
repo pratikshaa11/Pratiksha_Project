@@ -1,0 +1,46 @@
+{
+  "greetings": [
+    "Namaste",
+    "Hello"
+  ],
+  "facts": [
+    {
+      "keywords": [
+        "gerbera",
+        "gerberaai",
+        "gerbera care"
+      ],
+      "answer": "Gerbera is a popular cut-flower crop. It prefers well-drained sandy loam, pH 5.5-7.0, temperatures 18-25°C. Provide shade in intense heat."
+    },
+    {
+      "keywords": [
+        "powdery",
+        "powdery mildew"
+      ],
+      "answer": "Powdery mildew: white powdery patches on leaves. Remove infected material, increase airflow, use sulfur-based fungicides as per label."
+    },
+    {
+      "keywords": [
+        "soil",
+        "bed",
+        "soil preparation"
+      ],
+      "answer": "Prepare raised beds with compost, ensure good drainage, avoid waterlogging. Mulch to conserve moisture."
+    },
+    {
+      "keywords": [
+        "market",
+        "price",
+        "market trends"
+      ],
+      "answer": "Gerbera market prices vary by season and city. Check local mandi or the Market Trends page for recent prices in Pune."
+    },
+    {
+      "keywords": [
+        "maharashtra climate",
+        "maharashtra"
+      ],
+      "answer": "Maharashtra has diverse climates; for gerbera aim for cool nights, moderate days. Avoid prolonged high heat (>30°C) and heavy monsoon waterlogging."
+    }
+  ]
+}

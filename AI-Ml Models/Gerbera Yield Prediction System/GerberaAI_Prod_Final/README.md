@@ -1,0 +1,1 @@
+GerberaAI Final - includes OpenWeather integration example, KB-backed chatbot, grey/cream UI theme, and Maharashatra localized advisory. See backend/.env.example and backend/README.md for setting API keys.
