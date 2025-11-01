@@ -17,27 +17,9 @@ eggs/
 .eggs/
 lib/
 lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-best.pt
+# Ignore large model files
 AI-Ml Models/best.pt
+AI-Ml Models/__pycache__/
+
+
